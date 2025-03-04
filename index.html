@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramadan Course Leaderboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="https://iom.edu.bd/wp-content/uploads/2023/06/iomlogo.png" alt="Logo" class="logo">
+    </header>
+
+    <div class="container">
+        <h1>🏆 Ramadan Course Leaderboard</h1>
+        <div id="loading">Loading data...</div>
+        
+        <section id="leaderboard">
+            <h2>Top Contributors</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Active Hours</th>
+                        <th>Role</th> <!-- নতুন কলাম যুক্ত হয়েছে -->
+                    </tr>
+                </thead>
+                <tbody id="leaderboard-data">
+                    <!-- Data will be injected here -->
+                </tbody>
+            </table>
+        </section>
+
+        <section id="daily-updates">
+            <h2>📅 Daily Updates</h2>
+            <ul id="updates-list">
+                <!-- Data will be injected here -->
+            </ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
