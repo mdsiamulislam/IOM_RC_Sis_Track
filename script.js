@@ -39,6 +39,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 if (activeTime.includes("১ ঘণ্টা+")) hours = 1;
                 if (activeTime.includes("২ ঘণ্টা+")) hours = 2;
                 if (activeTime.includes("৩ ঘণ্টা+")) hours = 3;
+                if (activeTime.includes("৪ ঘণ্টা+")) hours = 4;
+                if (activeTime.includes("৫ ঘণ্টা+")) hours = 5;
+                if (activeTime.includes("৬ ঘণ্টা+")) hours = 6;
+                if (activeTime.includes("৭ ঘণ্টা+")) hours = 7;
+                if (activeTime.includes("৮ ঘণ্টা+")) hours = 8;
+                if (activeTime.includes("৯ ঘণ্টা+")) hours = 9;
+                if (activeTime.includes("১০ ঘণ্টা+")) hours = 10;
 
                 // মোট সময় যোগ করা
                 leaderboard[name].activeTime += hours;
